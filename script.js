@@ -4,8 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   navItems.forEach(item => {
     item.addEventListener('click', () => {
-      // Handle navigation here
-      console.log(`Navigating to ${item.id}`);
+      window.location.href = `${item.id}.html`;
     });
   });
 });
