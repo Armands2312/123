@@ -1,4 +1,61 @@
-html {
-  height: 100%;
-  width: 100%;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #e74c4c 0%, #ffd6d6 100%);
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-item {
+  color: #000;
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: #e74c4c;
+}
+
+.center-logo {
+  text-align: center;
+}
+
+.center-logo img {
+  width: 60px;
+  height: auto;
+}
+
+.logo-text {
+  color: #1a3c89;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0 5px;
+}
+
+.logo-subtitle {
+  color: #1a3c89;
+  font-size: 14px;
+}
+
+.main-content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.sakums-text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.autorizacija-text {
+  font-size: 24px;
 }
