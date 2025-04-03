@@ -113,11 +113,22 @@ input[type="submit"]:hover {
   background-color: #15306d;
 }
 
-a {
+a.home-link {
   color: #1a3c89;
   text-decoration: none;
   display: inline-block;
-  margin: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 8px 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+a.home-link:hover {
+  background-color: #f8f8f8;
+  color: #e74c4c;
 }
 
 footer {
