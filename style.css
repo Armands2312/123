@@ -9,7 +9,7 @@ body {
 }
 
 body::after {
-  content: "Big Pike Fishing Tackle";
+  content: "@Armands Bricis";
   position: fixed;
   bottom: 50px;
   right: -50px;
