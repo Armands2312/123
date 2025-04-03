@@ -12,6 +12,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .nav-item {
@@ -19,19 +21,28 @@ nav {
   cursor: pointer;
   font-size: 18px;
   transition: color 0.3s;
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 
 .nav-item:hover {
   color: #e74c4c;
+  background-color: #f8f8f8;
 }
 
 .center-logo {
   text-align: center;
+  padding: 0 20px;
 }
 
 .center-logo img {
   width: 60px;
   height: auto;
+  transition: transform 0.3s;
+}
+
+.center-logo img:hover {
+  transform: scale(1.1);
 }
 
 .logo-text {
@@ -47,15 +58,59 @@ nav {
 }
 
 .main-content {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #1a3c89;
   text-align: center;
-  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
-.sakums-text {
-  font-size: 24px;
-  margin-bottom: 20px;
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.autorizacija-text {
-  font-size: 24px;
+input[type="text"], input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #1a3c89;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #15306d;
+}
+
+a {
+  color: #1a3c89;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #1a3c89;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
