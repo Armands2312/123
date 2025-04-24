@@ -51,9 +51,10 @@ nav {
 }
 
 .center-logo img {
-  width: 60px;
+  width: 80px;
   height: auto;
   transition: transform 0.3s;
+  filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.2));
 }
 
 .center-logo img:hover {
