@@ -219,6 +219,50 @@ a.home-link:hover {
   font-weight: bold;
 }
 
+.welcome-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome-section h2 {
+  color: #1a3c89;
+  margin-bottom: 20px;
+}
+
+.feature-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.feature-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #1a3c89;
+  transition: transform 0.3s;
+  margin: 0 15px;
+}
+
+.feature-button:hover {
+  transform: translateY(-5px);
+}
+
+.feature-button img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.feature-button span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 footer {
   text-align: center;
   padding: 20px;
